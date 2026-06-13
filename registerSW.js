@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/mazal-crm/sw.js', { scope: '/mazal-crm/' })})}
